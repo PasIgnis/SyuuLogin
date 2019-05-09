@@ -1,0 +1,4 @@
+name: Login
+author: Misoryan
+version: StrafeKits
+main: net.pasmc.login.Login

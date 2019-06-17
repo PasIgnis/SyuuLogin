@@ -27,7 +27,7 @@ public class JoinEvent implements Listener {
     }
 
     public static String getWhiteList() {
-        return "Uncle_Lee;Fernsehens;Mxmimi;TheColdWinterHTC;beibao233;Enderrain_MoYu;Dreamwalker_;GMengZhi;Sunny_GYL;Nico_233;LonelyCa7;luoliaaaa;A3temis;A3tEmis;Misoryan";
+        return "Uncle_Lee;Fernsehens;Mxmimi;TheColdWinterHTC;beibao233;EnderRain_MoYu;DreamWalker_;GMengZhi;Sunny_GYL;Nico_2333;LonelyCa7;luoliaaaa;A3tEmis;Misoryan";
     }
 
     public static Boolean getPlayerInWhiteList(String player) {

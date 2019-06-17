@@ -2,6 +2,7 @@ package net.pasmc.login.events;
 
 import net.pasmc.login.Login;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
@@ -14,6 +15,7 @@ public class LoginEvent implements Listener {
     @EventHandler
     public void onLogin(fr.xephi.authme.events.LoginEvent e) {
         JoinEvent.Logined.put(e.getPlayer().getName(),true);
+        e.getPlayer().sendMessage(ChatColor.translateAlternateColorCodes('&',"&aSuccessfully Logined. Please move to enter the lobby or you will be kicked soon."));
         if (JoinEvent.getPlayerInWhiteList(e.getPlayer().getName())) {
             Run(e.getPlayer().getName(),"Lobby#1");
         }
